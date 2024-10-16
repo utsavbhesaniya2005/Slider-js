@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Custom Slider</title>
+
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        
+        <section class="slider-part">
+            <h1>Custom Slider</h1>
+            <div class="container">
+                <div id="slider">
+
+                    <div class="slide">
+                      <img src="./assets/images/img-1.jpg">
+                    </div>
+                  
+                    <div class="slide">
+                      <img src="./assets/images/img-2.jpg">
+                    </div>
+                  
+                    <div class="slide">
+                      <img src="./assets/images/img-3.jpg">
+                    </div>
+                  
+                    <div class="slide">
+                      <img src="./assets/images/img-4.jpg">
+                    </div>
+        
+                    <div class="slide">
+                        <img src="./assets/images/img-5.jpg">
+                    </div>
+        
+                    <div class="slide">
+                        <img src="./assets/images/img-6.jpg">
+                    </div>
+                  
+                    <!--Controlling arrows-->
+                    <span class="controls" onclick="prevSlide(-1)" id="left-arrow">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 288 480 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-370.7 0 73.4-73.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-128 128z"/></svg>
+                    </span>
+                    <span class="controls" id="right-arrow" onclick="nextSlide(1)">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"/></svg>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
